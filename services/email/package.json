@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
