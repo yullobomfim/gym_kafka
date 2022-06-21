@@ -1,5 +1,6 @@
-import express from 'express';
 import { CompressionTypes, Kafka, logLevel, Partitioners } from 'kafkajs';
+import express from 'express';
+
 const app = express();
 
 const kafka = new Kafka({

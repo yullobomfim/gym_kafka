@@ -18,7 +18,6 @@ const plans = [
     }
   ]
 
-
 const kafka = new Kafka({
   clientId: 'code',
   brokers: ['kafka:29092'],
