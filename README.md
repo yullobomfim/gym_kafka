@@ -3,9 +3,8 @@
 ## 📃 Sobre
 
 Este projeto foi desenvolvido como forma de atividade avaliativa da disciplina de Desenvolvimento Distribuido na Internet da Universidade Federal da Bahia IFBA-Vitória da Conquista ministrada pelo Professor Luis Paulo da Silva Caravlho, este projeto é estritamente didático, o código e as informações são de Autoria do Discente Yullo Costa Bomfim.
-O **objetivo** deste projeto é de criar uma COREOGRAFIA de microsserviços web containerizados que se comuniquem através de mensagens.
+O **objetivo** deste projeto é criar uma COREOGRAFIA de microsserviços web containerizados que se comuniquem através de mensagens.
 Ele consiste na concretização de uma coreografia formada por QUATRO microsserviços web. Para tanto, foi proposto um mini-mundo em torno do qual os serviços fizessem sentido 
-Este sistema não possui **interface gráfica**, e foram desenvolvidos com 4 microserviços e coreografia de containers utilizando Docker e Apache Kafka com o back-end em NodeJs.
 
 ## Requisitos
 
@@ -49,9 +48,11 @@ Para você poder executar esta aplicação, terá que ter instalado em sua máqu
     ```bash
     $ docker-compose up -d
     ```
-4. Abra o insomnia e dispare alguns eventos para os testes
-Metodo POST >>> http://localhost:3001/sign/gym/1
-Passar o objeto {"email":"yullo@teste.com"}
+4. Abra o insomnia e execute um POST
+    http://localhost:3001/sign/gym/1
+    {
+    "email":"yullo@teste.com"
+    }
 
 5. Monitore a execução dos eventos atráves dos Logs do docker-compose:
     ```bash
