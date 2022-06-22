@@ -2,9 +2,7 @@
 
 ## 📃 Sobre
 
-Este projeto foi desenvolvido como forma de atividade avaliativa da disciplina de Desenvolvimento Distribuido na Internet da Universidade Federal da Bahia IFBA-Vitória da Conquista ministrada pelo Professor Luis Paulo da Silva Caravlho, este projeto é estritamente didático, o código e as informações são de Autoria do Discente Yullo Costa Bomfim.
-O **objetivo** deste projeto é criar uma COREOGRAFIA de microsserviços web containerizados que se comuniquem através de mensagens.
-Ele consiste na concretização de uma coreografia formada por QUATRO microsserviços web. Para tanto, foi proposto um mini-mundo em torno do qual os serviços fizessem sentido 
+Este projeto foi desenvolvido como avaliação da disciplina de Desenvolvimento Distribuido na Internet pelo Instituto Federal da Bahia IFBA-Vitória da Conquista ministrada pelo Professor Luis Paulo da Silva Caravlho, este projeto é estritamente didático, o código e as informações são de Autoria do Discente Yullo Costa Bomfim. O **objetivo** deste projeto é realizar uma COREOGRAFIA de microsserviços web containerizados que se comuniquem através de mensagens. Ele consiste na concretização de uma coreografia formada por QUATRO microsserviços web executados de forma independente. O primeiro serviço irá realizar o cadastro do aluno. O segundo irá enviar um email de confirmação com o codigo de acesso às aulas. O terceiro irá listar os exercicios referentes ao plano escolhido no cadastro. E o quarto será o serviço de email que irá criar os logs dos emails enviados. A aplicação **Gymnastic Management** foi desenvolvido por mim e não tem a pretensão de ser definitiva, mas apenas atender aos critérios da avaliação desta disciplina e o código fonte esta disponivel no GitHub [**yullobomfim**](https://github.com/yullobomfim/gym_kafka.git).
 
 ## Requisitos
 
@@ -26,15 +24,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [**Node.js**](https://nodejs.org/en/): um interpretador de JavaScript assíncrono com código aberto orientado a eventos;
 - [**Docker Desktop**](https://www.docker.com/): O Docker Desktop é um aplicativo fácil de instalar que permite criar e compartilhar aplicativos e microsserviços em contêineres. Ele vem com ferramentas de contêiner como Kubernetes, Docker Compose, BuildKit e verificação de vulnerabilidades.
 
-## 📟 Layout e Análise da aplicação
-O layout da aplicação **Gymnastic Management** foi desenvolvido por mim e não tem a pretensão de ser definitiva, mas apenas atender aos critérios da avaliação desta disciplina e o código fonte esta disponivel no GitHub [**yullobomfim**](https://github.com/yullobomfim/gym_kafka.git).
-
 ## 🔧 Instalação e Execução
 
-Para você poder executar esta aplicação, terá que ter instalado em sua máquina o Git [**Git**](https://git-scm.com/) e o [**Docker Desktop**](https://www.docker.com/).
-É importante verificar durante a configuração desta aplicação se o Apache Kafka está devidamente configurado e se as portas utilizadas estão livres. Como estou utilizando os microserviços nas portas 3001, é uma premissa que esta porta esteja livre para assim rodar a aplicação.
+Para poder executar esta aplicação, deve ter instalado em sua máquina o Git [**Git**](https://git-scm.com/) e o [**Docker Desktop**](https://www.docker.com/).
+É importante verificar durante a configuração, se o Apache Kafka está devidamente configurado e, se as portas utilizadas estão livres. Como estou utilizando os microserviços nas portas 3001, é uma premissa que esta porta esteja livre para assim rodar a aplicação.
 
-### Microservices e BackEnd
+### Rodando o projeto
 
 1. Faça um clone da aplicação do github e vá até a pasta raíz do repositório:
     ```bash
@@ -76,10 +71,3 @@ Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie um
 
 Entre em contato comigo pelo meu LinkedIn:
 https://www.linkedin.com/in/yullo-bomfim-50434627/
-
-
-## 📝 Licença
-
-Esse projeto foi desenvolvido para atender os críterios da disciplina Desenvolvimento Distribuido na Internet e possuem carater didático e os dados fícticios para melhor compreensão da tecnologia.
-
-***
